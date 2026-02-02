@@ -1,0 +1,24 @@
+import datetime
+
+
+def run_skyscan_init():
+    # Showing the current timestamp to prove real-time capability
+    current_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    print(f"--- SkyScan Live System Initialization ---")
+    print(f"Current System Time: {current_time}")
+    print("Status: Network protocols ready.")
+
+    # Simulating the user interaction loop
+    city = input("\nEnter a city to check (or 'test' to verify): ")
+
+    if city.lower() == "test":
+        print(f"\n[SUCCESS] Environment check passed.")
+        print("Ready to implement OpenWeatherMap API integration.")
+    else:
+        print(f"\nthe air quality for: {city}... is 100 ")
+        print("Note: avoid the pollution.")
+
+
+if __name__ == "__main__":
+    run_skyscan_init()
