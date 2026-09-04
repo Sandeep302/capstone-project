@@ -1,7 +1,3 @@
-# Student Name: Sandeep Reddy Seernam
-#Student ID:@101470173
-# Student Email ID:sseernam@fitchburgstate.edu
-
 import datetime  # Import module to get the current date and time
 import requests  # Import module to send network requests to the API
 import json  # Import module to handle JSON data format
