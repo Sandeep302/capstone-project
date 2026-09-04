@@ -1,9 +1,3 @@
-#Assignment 2
-# Student Name: Sandeep Reddy Seernam
-#Student ID:@101470173
-# Student Email ID:sseernam@fitchburgstate.edu
-#
-
 
 import datetime
 import requests
